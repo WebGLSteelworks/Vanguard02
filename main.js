@@ -620,7 +620,7 @@ function createGlassMaterial(originalMaterial, config) {
     envMapIntensity: 0.0,
 	
 	  // 🔥 COATING
-	  clearcoat: 0.25,
+	  clearcoat: 1.00,
 	  clearcoatRoughness: 0.01
   });
 
