@@ -23,16 +23,16 @@ export const MODEL_CONFIG = {
 	},
 
     glass: {
-	  color: [0.9, 0.6, 0.2],   
+	  color: [0.9, 0.5, 0.2],   
 	  roughness: 0.1,
 	  metalness: 0.0,
 	  opacity: 0.9,
 
 	  fresnel: {
 		enabled: true,
-		intensity: 2.7,
+		intensity: 2.0,
 		chromaBoost: 2.5,
-		colorFront: [0.9, 0.6, 0.2],
+		colorFront: [0.9, 0.5, 0.2],
 		colorMid:   [0.6, 0.3, 0.1],
 		colorEdge:  [0.2, 0.5, 0.1]
 	  },

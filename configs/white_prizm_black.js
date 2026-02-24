@@ -23,7 +23,7 @@ export const MODEL_CONFIG = {
 	},
 
     glass: {
-	  color: [0.1, 0.1, 0.1],   
+	  color: [0.3, 0.3, 0.3],   
 	  roughness: 0.1,
 	  metalness: 0.5,
 	  opacity: 0.90,
@@ -32,7 +32,7 @@ export const MODEL_CONFIG = {
 		enabled: true,
 		intensity: 3.1,  
 		chromaBoost: 0.0,			
-		colorFront: [0.1, 0.1, 0.1],
+		colorFront: [0.2, 0.2, 0.2],
 		colorMid:   [0.0, 0.0, 0.0],
 		colorEdge:  [-0.1, -0.1, -0.1]
 	  },
@@ -40,7 +40,7 @@ export const MODEL_CONFIG = {
 	  baseChromaBoost: 1.0, 
 		  
 	  back: {
-		color: [0.4, 0.4, 0.4],
+		color: [0.2, 0.2, 0.2],
 		opacity: 1.0
 	  },
 	},

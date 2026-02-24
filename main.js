@@ -612,16 +612,16 @@ function createGlassMaterial(originalMaterial, config) {
 
     transmission: 0.0,
     ior: g.ior ?? 1.45,
-	reflectivity: g.reflectivity ?? 1.0,
+	reflectivity: 1.0,
 
     depthWrite: false,
     depthTest: true,
 
-    envMapIntensity: 2.5,
+    envMapIntensity: 0.0,
 	
 	  // 🔥 COATING
-	  clearcoat: 0.0,
-	  clearcoatRoughness: 0.08
+	  clearcoat: 0.25,
+	  clearcoatRoughness: 0.01
   });
 
 	mat.userData.baseChromaBoost = g.baseChromaBoost ?? 1.0;
@@ -658,8 +658,6 @@ function createGlassMaterial(originalMaterial, config) {
 
 function injectFresnel(material, fresnelCfg) {
 	
-	console.log("Injecting Fresnel into:", material);
-
   material.userData.fresnel = {
     intensity: fresnelCfg.intensity ?? 2.0,
 	chromaBoost: fresnelCfg.chromaBoost ?? 0.8, 
