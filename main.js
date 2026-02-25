@@ -199,6 +199,8 @@ function loadModel(config) {
 			
 		// ───── glass (principal)
 		if (obj.isMesh && obj.material?.name?.toLowerCase().includes('glass')) {
+			
+		  obj.renderOrder = 2;
 
 		  const mat = createGlassMaterial(obj.material, config);
 
@@ -411,6 +413,7 @@ function applyConfig(config) {
 
 	if (obj.name.includes('Arm_Text')) {
 	  obj.material = armTextMaterial;
+	  obj.renderOrder = 1;
 	  return;
 	}
 
