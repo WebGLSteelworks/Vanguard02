@@ -614,17 +614,17 @@ function createGlassMaterial(originalMaterial, config) {
     opacity: g.opacity,
 
     transmission: 0.0,
-    ior: g.ior ?? 1.45,
+    ior: g.ior ?? 2.0,
 	reflectivity: 1.0,
 
     depthWrite: false,
     depthTest: true,
 
-    envMapIntensity: 0.0,
+    envMapIntensity: 3.5,
 	
 	  // 🔥 COATING
 	  clearcoat: 1.00,
-	  clearcoatRoughness: 0.01
+	  clearcoatRoughness: 0.1
   });
 
 	mat.userData.baseChromaBoost = g.baseChromaBoost ?? 1.0;
@@ -851,7 +851,7 @@ new EXRLoader().load('./studio.exr', (hdr) => {
     uniforms: {
       tMap: { value: hdr },
 	  saturation: { value: saturation },
-	  contrast: { value: 1.00 } 
+	  contrast: { value: 1.60 } 
     },
     vertexShader: `
       varying vec2 vUv;
@@ -902,7 +902,7 @@ new EXRLoader().load('./studio.exr', (hdr) => {
 
   scene.environment = processedEnvMap;
   scene.environmentRotation = new THREE.Euler(0, Math.PI * 0.5, 0);
-  scene.environmentIntensity = 2.5;
+  scene.environmentIntensity = 1.5;
 
   hdr.dispose();
   renderTarget.dispose();

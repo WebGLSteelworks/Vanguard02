@@ -25,7 +25,7 @@ export const MODEL_CONFIG = {
     glass: {
 	  color: [0.5, 0.0, 0.3],   
 	  roughness: 0.1,
-	  metalness: 0.0,
+	  metalness: 0.5,
 	  opacity: 0.9,
 
 	  fresnel: {
@@ -52,7 +52,7 @@ export const MODEL_CONFIG = {
 
 	logo: {
 	  texture: './textures/prizm_logo_512k.png',
-	  emissiveIntensity: 0.1
+	  emissiveIntensity: 0.3
 	},
 
 
