@@ -15,7 +15,7 @@ export const MODEL_CONFIG = {
 	},
 	
 	armsText: {
-		overlay: './textures/Temples_vanguard_standard_2k.png',
+		overlay: './textures/Temples_vanguard_2k.png',
 		color: [0.1, 0.1, 0.1],
 		
 		transparent: true,
