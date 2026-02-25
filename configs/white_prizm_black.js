@@ -3,10 +3,10 @@ export const MODEL_CONFIG = {
   glb: './models/Standard_Vanguard.glb',
 
 	frame: {
-	  baseColor: [0.05, 0.05, 0.05],
+	  baseColor: [0.02, 0.02, 0.02],
 	  
-	  upColor:   [0.65, 0.65, 0.65],   // opcional
-	  downColor: [0.05, 0.05, 0.05], 	
+	  upColor:   [0.75, 0.75, 0.75],   
+	  downColor: [0.02, 0.02, 0.02], 	
 	  roughness: 0.7,
 	  metalness: 0.0,
 	  trans: false,          
@@ -23,7 +23,7 @@ export const MODEL_CONFIG = {
 	},
 
     glass: {
-	  color: [0.3, 0.3, 0.3],   
+	  color: [0.1, 0.1, 0.1],   
 	  roughness: 0.1,
 	  metalness: 0.5,
 	  opacity: 0.90,
@@ -32,7 +32,7 @@ export const MODEL_CONFIG = {
 		enabled: true,
 		intensity: 3.1,  
 		chromaBoost: 0.0,			
-		colorFront: [0.2, 0.2, 0.2],
+		colorFront: [0.1, 0.1, 0.1],
 		colorMid:   [0.0, 0.0, 0.0],
 		colorEdge:  [-0.1, -0.1, -0.1]
 	  },
@@ -47,12 +47,12 @@ export const MODEL_CONFIG = {
 
 
 	fake: {
-	  texture: './textures/w_interior_fake.jpg'
+	  texture: './textures/v_interior_fake.jpg'
 	},
 
 	logo: {
 	  texture: './textures/prizm_logo_512k.png',
-	  emissiveIntensity: 0.6
+	  emissiveIntensity: 0.1
 	},
 
 

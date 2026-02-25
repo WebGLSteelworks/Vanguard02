@@ -3,10 +3,10 @@ export const MODEL_CONFIG = {
   glb: './models/Standard_Vanguard.glb',
 
 	frame: {
-	  baseColor: [0.05, 0.05, 0.05],
+	  baseColor: [0.02, 0.02, 0.02],
 	  
-	  upColor:   [0.05, 0.05, 0.05],   
-	  downColor: [0.05, 0.05, 0.05], 	
+	  upColor:   [0.02, 0.02, 0.02],   
+	  downColor: [0.02, 0.02, 0.02], 	
 	  roughness: 0.7,
 	  metalness: 0.0,
 	  trans: false,          
@@ -47,12 +47,12 @@ export const MODEL_CONFIG = {
 	},
 
 	fake: {
-	  texture: './textures/w_interior_fake.jpg'
+	  texture: './textures/v_interior_fake.jpg'
 	},
 
 	logo: {
 	  texture: './textures/prizm_logo_512k.png',
-	  emissiveIntensity: 0.6
+	  emissiveIntensity: 0.1
 	},
 
 
