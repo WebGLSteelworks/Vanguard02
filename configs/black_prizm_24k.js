@@ -47,7 +47,7 @@ export const MODEL_CONFIG = {
 	},
 
 	fake: {
-	  texture: './textures/v_interior_fake.jpg'
+	  texture: './textures/v_interior_fake_blur.jpg'
 	},
 
 	logo: {
