@@ -624,7 +624,7 @@ function createGlassMaterial(originalMaterial, config) {
 	
 	  // 🔥 COATING
 	  clearcoat: 1.00,
-	  clearcoatRoughness: 0.1
+	  clearcoatRoughness: 0.05
   });
 
 	mat.userData.baseChromaBoost = g.baseChromaBoost ?? 1.0;
@@ -901,7 +901,7 @@ new EXRLoader().load('./studio.exr', (hdr) => {
   const processedEnvMap = pmrem.fromEquirectangular(renderTarget.texture).texture;
 
   scene.environment = processedEnvMap;
-  scene.environmentRotation = new THREE.Euler(0, Math.PI * 0.5, 0);
+  scene.environmentRotation = new THREE.Euler(0, Math.PI * 0.1, 0);
   scene.environmentIntensity = 1.5;
 
   hdr.dispose();
