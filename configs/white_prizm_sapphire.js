@@ -30,10 +30,10 @@ export const MODEL_CONFIG = {
 
 	  fresnel: {
 		enabled: true,
-		intensity: 2.7,
+		intensity: 3.7,
 		chromaBoost: 3.0,		
 		colorFront: [0.30, 0.8, 1.0],
-		colorMid:   [0.00, 0.00, 0.50],
+		colorMid:   [0.20, 0.2, 0.8],
 		colorEdge:  [0.25, 0.0, 0.25]
 	  },
 
