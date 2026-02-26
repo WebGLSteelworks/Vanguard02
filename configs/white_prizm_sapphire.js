@@ -40,7 +40,7 @@ export const MODEL_CONFIG = {
 	  baseChromaBoost: 1.0, 
 	  
 	  back: {
-		color: [0.4, 0.2, 0.4],
+		color: [0.5, 0.2, 0.25],
 		opacity: 1.0
 	  },
 

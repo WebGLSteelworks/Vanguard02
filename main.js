@@ -221,7 +221,7 @@ function loadModel(config) {
 			  color: new THREE.Color(...backCfg.color),
 			  transparent: true,
 			  opacity: backCfg.opacity,
-			  roughness: 0.2,
+			  roughness: 0.15,
 			  metalness: 0.0,
 			  depthWrite: false
 			});
