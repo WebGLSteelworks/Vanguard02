@@ -3,11 +3,11 @@ export const MODEL_CONFIG = {
   glb: './models/Standard_Vanguard.glb',
 
 	frame: {
-	  baseColor: [0.02, 0.02, 0.02],
+	  baseColor: [0.08, 0.08, 0.08],
 	  
-	  upColor:   [0.02, 0.02, 0.02],   
-	  downColor: [0.02, 0.02, 0.02], 	
-	  roughness: 0.7,
+	  upColor:   [0.08, 0.08, 0.08],   
+	  downColor: [0.08, 0.08, 0.08], 	
+	  roughness: 0.5,
 	  metalness: 0.0,
 	  trans: false,          
 	  opacity: 0.3, 
